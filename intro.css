@@ -1,0 +1,54 @@
+.topnavbar {
+	background-color:#0a566d;
+	overflow:hidden;
+	position:relative;
+}
+.topnavbar a{
+	display:inline-block;
+	float:left;
+	position:relative;
+	color:rgb(255,255,255);
+	text-align: center;
+	text-decoration:none;
+	font-size:30px;
+	margin:10px;
+}
+.topnavbar a:hover {
+	/*background-color:rgb(65, 202, 244);*/
+	color:#d0d6d8;
+}
+table{
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+}
+img{
+	max-width:100%;
+}
+.relative{
+	position: relative;
+}
+span.sitetitle{
+	position: absolute;
+	top:50px;
+	left:10px;
+	width:100%;
+	z-index:1;
+}
+.homepage_description{
+	float:left;
+	background-color:#22313f;
+}
+.homepage_description article{
+	/*border:thick solid #d4d7db;*/
+	border:thick solid #87d1ed;
+	float:left;
+	width:25%;
+	margin:50px;
+}
+a.login{
+	margin:40px;
+}
+footer{
+	background-color:#0a566d;
+	color:rgb(255,255,255);
+}

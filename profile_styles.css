@@ -1,0 +1,88 @@
+body{
+	background: url("Mild.jpg") fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+div.topnav{
+	background-color:#0a566d;
+	background-size:cover;
+	overflow:hidden;
+}
+.topnav a{
+	/*display:inline-block;*/
+	float:left;
+	/*position:relative;*/
+	color:rgb(255,255,255);
+	text-align: center;
+	text-decoration:none;
+	font-size:20px;
+	margin:10px 100px 10px;
+}
+.topnav a:hover {
+	/*background-color:rgb(65, 202, 244);*/
+	color:#d0d6d8;
+}
+.dropdown .dropdown_button{
+	/*float:left;
+	color:rgb(255,255,255);
+	text-align: center;
+	text-decoration:none;
+	font-size:30px;
+	background-color:inherit;
+	border:none;
+	outline:none;
+	margin:10px 100px 10px;*/
+	background-color: #0a566d;
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+	float:left;
+	background-color:#A9A9A9;
+	/*overflow:hidden;*/
+	display:inline-block;
+	position:relative;
+}
+.dropdown_content{
+	background-color:#A9A9A9;
+	display:none;
+	position:fixed;
+	z-index: 2;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown_content a{
+	/*float:none;*/
+	color:white;
+	padding:2px;
+	display:block;
+	text-align:left;
+	text-decoration: none;
+	/*padding:10px 16px;*/
+}
+.dropdown:hover .dropdown_content{
+	display:block;
+}
+div.stats{
+		background-color:#d2f1f7;
+		border:2px solid gray;
+		border-collapse: true;
+		text-align:center;
+		font-size:20px;
+		width:400px;
+		padding:10px;
+		height:40px;
+ 		left:33%
+}
+#profile_picture{
+	position:absolute;
+	left:0.5%;
+	top:10%;
+}
+#statistics{
+	position:absolute;
+	right:35%;
+	top:25%;
+}

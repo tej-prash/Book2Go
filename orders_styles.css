@@ -1,0 +1,10 @@
+body{
+	background: url("Mild.jpg") fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.all_orders{
+	border:4px solid blue;
+	background-color: #9cbbed;
+	font-size:20;
+}

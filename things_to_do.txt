@@ -1,0 +1,6 @@
+1) Search interface for customer
+2) Interface for owner to put up books
+3) Show which books have been put up by the owner
+4) An interface to update status
+5) Query employee details for each order
+6) checking against deleted flag
